@@ -2492,6 +2492,10 @@ body {
 .cid-qx4TXuEknX {
   background-image: url("../../../assets/images/000-5502-2000x1333.jpg");
 }
+.cid-qx4TXuEknX .mbr-text,
+.cid-qx4TXuEknX .mbr-section-btn {
+  text-align: left;
+}
 .cid-qx4TYNgpHt {
   background-image: url("../../../assets/images/000-5525-2000x1333.jpg");
 }
@@ -2902,6 +2906,7 @@ body {
 }
 .cid-qx4LS6WsHO .mbr-text {
   color: #767676;
+  text-align: left;
 }
 .cid-qx4LS6WsHO .mbr-author-desc {
   display: block;
