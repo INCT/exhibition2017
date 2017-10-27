@@ -28,10 +28,10 @@ body {
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 4.8rem;
+  font-size: 5.6rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -42,17 +42,17 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 4.8rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 2.5rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 4rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -66,9 +66,9 @@ body {
     line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.8rem;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.4rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -622,13 +622,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 2.5rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 4rem;
 }
 .form-control,
 .form-control:focus {
@@ -1338,10 +1338,14 @@ body {
   min-height: 100vh;
 }
 .cid-qx4vdAysyv {
-  background-image: url("../../../assets/images/artboard-44x-2000x1125.png");
+  background-image: url("../../../assets/images/artboard-74x-2000x905.png");
 }
 .cid-qx4vdAysyv H1 {
-  color: #ffffff;
+  color: #232323;
+}
+.cid-qx4vdAysyv .mbr-text,
+.cid-qx4vdAysyv .mbr-section-btn {
+  color: #232323;
 }
 .cid-qx4oFHwXhk .navbar {
   padding: .5rem 0;
@@ -1719,21 +1723,22 @@ body {
     flex-shrink: 0;
   }
 }
-.cid-qx4WOcu3Kd {
-  background-image: url("../../../assets/images/jumbotron.jpg");
-}
-.cid-qx4WU93ZPj {
-  background-image: url("../../../assets/images/jumbotron.jpg");
+.cid-qx4WU93ZPj H1 {
+  color: #ffffff;
+  text-align: center;
 }
 .cid-qx4WG2iUzv {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 105px;
+  padding-bottom: 90px;
   background-color: #2e2e2e;
 }
 .cid-qx4BKjlCNt {
   padding-top: 135px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/mbr-4-1620x1080.jpg");
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-qx4BKjlCNt H1 {
+  color: #333333;
 }
 .cid-qx4oFHwXhk .navbar {
   padding: .5rem 0;
@@ -2121,6 +2126,10 @@ body {
 .cid-qx4TYNgpHt {
   background-image: url("../../../assets/images/oekaki-2000x1984.jpg");
 }
+.cid-qx4TYNgpHt .mbr-text,
+.cid-qx4TYNgpHt .mbr-section-btn {
+  text-align: left;
+}
 .cid-qx4TZ9YJPT {
   background-image: url("../../../assets/images/dsc-39-2000x2000.jpg");
 }
@@ -2130,6 +2139,7 @@ body {
 .cid-qx4TZ9YJPT .mbr-text,
 .cid-qx4TZ9YJPT .mbr-section-btn {
   color: #232323;
+  text-align: left;
 }
 .cid-qyHjR9BN00 {
   background-image: url("../../../assets/images/000-6298-2000x1333.jpg");
@@ -2138,31 +2148,30 @@ body {
 .cid-qyHjR9BN00 .mbr-section-btn {
   text-align: left;
 }
-.cid-qyHkD4zRdm {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #886586;
+.cid-qze2Vy53qA {
+  background-color: #073b4c;
 }
-.cid-qyHkD4zRdm P {
+.cid-qze2Vy53qA .mbr-text,
+.cid-qze2Vy53qA .mbr-section-btn {
   text-align: left;
 }
-.cid-qyHljs9bO7 {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-qze2DYPARX {
   background-color: #55b4d4;
 }
-.cid-qyHljs9bO7 P {
+.cid-qze2DYPARX .mbr-text,
+.cid-qze2DYPARX .mbr-section-btn {
   text-align: left;
 }
-.cid-qyHlCN3kgW {
+.cid-qzdYDX6rcr {
   background-image: url("../../../assets/images/img-20171026-173443-1024x576.jpg");
 }
-.cid-qyHlCN3kgW P {
+.cid-qzdYDX6rcr .mbr-text,
+.cid-qzdYDX6rcr .mbr-section-btn {
   text-align: left;
 }
 .cid-qx4DFwkcaq {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 105px;
+  padding-bottom: 90px;
   background-color: #2e2e2e;
 }
 .cid-qx4oFHwXhk .navbar {
@@ -2543,11 +2552,11 @@ body {
 }
 .cid-qx4LHPqy41 {
   padding-top: 135px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
   background-image: url("../../../assets/images/day-two-2000x1333.jpg");
 }
 .cid-qz9QJNJTk1 {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -2607,7 +2616,7 @@ body {
 }
 .cid-qz9RNbW3eT {
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-qz9RNbW3eT .mbr-section-subtitle {
@@ -2665,9 +2674,14 @@ body {
   }
 }
 .cid-qx4LZG3HKM {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 105px;
+  padding-bottom: 90px;
   background-color: #2e2e2e;
+}
+.cid-qzeaV7Et0i {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-color: #0f7699;
 }
 .cid-qx4oFHwXhk .navbar {
   padding: .5rem 0;
@@ -3045,9 +3059,12 @@ body {
     flex-shrink: 0;
   }
 }
-.cid-qx4MnSFYeB {
-  padding-top: 135px;
-  padding-bottom: 135px;
+.cid-qzeb9YVERi {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.cid-qzeb9YVERi P {
+  text-align: left;
 }
 .cid-qx4ROWGi60 .google-map {
   height: 25rem;
@@ -3076,7 +3093,7 @@ body {
   display: none;
 }
 .cid-qx4RRtBEHf {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 105px;
+  padding-bottom: 90px;
   background-color: #2e2e2e;
 }
